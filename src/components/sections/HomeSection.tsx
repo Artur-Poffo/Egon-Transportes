@@ -14,8 +14,8 @@ export function HomeSection() {
           Egon Transportes a empresa de transportes e fretes perfeita para você!
         </h1>
         <p className="mb-2">
-          Somos uma pequena empresa que realiza transportes e fretes
-          exclusivamente na cidade de Blumenau e região
+          Somos uma pequena empresa que realiza transportes e fretes na cidade
+          de Blumenau e região
         </p>
         <Link href={'https://wa.me/47991044953'} className="w-full">
           <DefaultButton text="Fazer Orçamento" />
