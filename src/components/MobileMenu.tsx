@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { useState } from 'react'
 
 export function MobileMenu() {
@@ -22,22 +21,24 @@ export function MobileMenu() {
           !isMenuOpen && 'ml-[-100vw]'
         } z-40 transition-all flex flex-col items-center justify-center gap-5`}
       >
-        <h1 className="text-2xl text-orange-500 font-mono uppercase tracking-wider">
-          Egon Transportes
-        </h1>
+        <a href="/#home">
+          <h1 className="text-2xl text-orange-500 font-mono uppercase tracking-wider">
+            Egon Transportes
+          </h1>
+        </a>
 
         <ul className="flex flex-col items-center gap-2">
           <li onClick={() => setIsMenuOpen(false)}>
-            <Link href={'/#home'}>Home</Link>
+            <a href={'/#home'}>Home</a>
           </li>
           <li onClick={() => setIsMenuOpen(false)}>
-            <Link href={'/#about'}>Sobre</Link>
+            <a href={'/#about'}>Sobre</a>
           </li>
           <li onClick={() => setIsMenuOpen(false)}>
-            <Link href={'/#info'}>Informações</Link>
+            <a href={'/#info'}>Informações</a>
           </li>
           <li onClick={() => setIsMenuOpen(false)}>
-            <Link href={'/#contact'}>Contato</Link>
+            <a href={'/#contact'}>Contato</a>
           </li>
         </ul>
       </div>
