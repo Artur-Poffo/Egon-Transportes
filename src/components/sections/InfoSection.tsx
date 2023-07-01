@@ -18,32 +18,17 @@ export function InfoSection() {
         <div className="flex flex-col gap-10 lg:gap-20">
           <div className="flex flex-col gap-2 max-w-4xl">
             <SubTitle>Caminhão:</SubTitle>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsum
-              quibusdam voluptatum amet consectetur in accusantium ipsa
-              consequatur odio alias error tempore, distinctio veniam tempora.
-              Expedita non harum omnis obcaecati!
-            </p>
+            <p>Em construção...</p>
           </div>
 
           <div className="flex flex-col gap-2 max-w-4xl">
             <SubTitle>Motorista:</SubTitle>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsum
-              quibusdam voluptatum amet consectetur in accusantium ipsa
-              consequatur odio alias error tempore, distinctio veniam tempora.
-              Expedita non harum omnis obcaecati!
-            </p>
+            <p>Em construção...</p>
           </div>
 
           <div className="flex flex-col gap-2 max-w-4xl">
             <SubTitle>Serviços:</SubTitle>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsum
-              quibusdam voluptatum amet consectetur in accusantium ipsa
-              consequatur odio alias error tempore, distinctio veniam tempora.
-              Expedita non harum omnis obcaecati!
-            </p>
+            <p>Em construção...</p>
           </div>
         </div>
 
